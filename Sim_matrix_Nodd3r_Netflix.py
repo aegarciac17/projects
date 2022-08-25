@@ -1,8 +1,8 @@
-#Pedimos al usuario que puntue las 10 series más vistas de netflix
 import numpy as np
 import pandas as pd
 import sklearn.metrics
 
+#Pedimos al usuario que puntue las 10 series más vistas de netflix
 usuario_puntuación=[]
 series=['La casa de papel', 'Stranger Things','Los Bridgerton','El juego del calamar','Gambito de dama', 'The Witcher', 'Por 13 razones', 'Lupin', 'Sex Education', 'Cobra kai']
 print('A continuación deberás puntuar 10 series del 0 al 10, siendo 0 horrible o que no la has visto y 10 que te parece una obra de arte.')
